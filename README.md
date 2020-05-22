@@ -66,3 +66,22 @@ extension AVLTree {
     }
 }
 ```
+## 1304. Find N Unique Integers Sum up to Zero
+
+```swift
+    func sumZero(_ n: Int) -> [Int] {
+        guard n > 1 else { return [0]}
+        var result: [Int] = []
+        
+        if n % 2 != 0 {
+            result.append(0)
+        }
+        
+        for num in 1...n/2 {
+            result.append(num)
+            result.append(-num)
+        }
+        
+        return result 
+    }
+```
