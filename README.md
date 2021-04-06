@@ -1,6 +1,5 @@
 # AVLTree
 
-
 ## Description
 A self-balancing tree demonstration app that uses integers to showcase how self balancing works for insertion and removal operations in Swift.
 - Created a custom AVLTree Class to provide developers a better understanding of how to construct a binary search tree and how to apply the self-balancing method.
